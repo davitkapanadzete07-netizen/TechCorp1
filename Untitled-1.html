@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ინოვაციური პლატფორმა</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- ==================== HEADER / NAVIGATION ==================== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-indigo-600">TechCorp</span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="text-gray-600 hover:text-indigo-600 transition">მთავარი</a>
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition">შესახებ</a>
+                <a href="#services" class="text-gray-600 hover:text-indigo-600 transition">სერვისები</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition">კონტაქტი</a>
+            </nav>
+
+            <!-- Call to Action Header Button -->
+            <div class="hidden md:block">
+                <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-indigo-700 transition">
+                    დაწყება
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                შექმენით მომავლის ციფრული პროდუქტები
+            </h1>
+            <p class="text-lg sm:text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
+                ჩვენ გთავაზობთ თანამედროვე ტექნოლოგიურ გადაწყვეტილებებს თქვენი ბიზნესის სწრაფი ზრდისა და განვითარებისთვის.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#services" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition">
+                    გაიგეთ მეტი
+                </a>
+                <a href="#contact" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition">
+                    დაგვიკავშირდით
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FEATURES / ABOUT SECTION ==================== -->
+    <section id="services" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">ჩვენი უპირატესობები</h2>
+            <p class="text-gray-600 max-w-xl mx-auto">აღმოაჩინეთ, თუ რატომ ირჩევენ ჩვენს პლატფორმას წამყვანი კომპანიები.</p>
+        </div>
+
+        <!-- 3 Cards Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                    ⚡
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-gray-900">სწრაფი შესრულება</h3>
+                <p class="text-gray-600">
+                    ოპტიმიზებული კოდი და სწრაფი ჩატვირთვის სიჩქარე თქვენი მომხმარებლის საუკეთესო გამოცდილებისთვის.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                    🛡️
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-gray-900">მაღალი უსაფრთხოება</h3>
+                <p class="text-gray-600">
+                    მონაცემთა დაცვის თანამედროვე სტანდარტები და სისტემური უსაფრთხოების გარანტია.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center font-bold text-xl mb-4">
+                    📱
+                </div>
+                <h3 class="text-xl font-bold mb-2 text-gray-900">სრული რესპონსიულობა</h3>
+                <p class="text-gray-600">
+                    იდეალური იერსახე ნებისმიერ მოწყობილობაზე — მობილურიდან დიდ ეკრანებამდე.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <!-- Copyright -->
+            <div class="text-sm text-center md:text-left">
+                &copy; 2026 TechCorp. ყველა უფლება დაცულია.
+            </div>
+            
+            <!-- Social Links -->
+            <div class="flex space-x-6 text-sm">
+                <a href="#" class="hover:text-white transition">Facebook</a>
+                <a href="#" class="hover:text-white transition">Twitter</a>
+                <a href="#" class="hover:text-white transition">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
